@@ -73,6 +73,7 @@ body {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)), url('/images/people-office.jpg');
     background-size:cover;
+    margin-bottom: 120px;
 }
 .hero-page {
     min-width: 496px;
@@ -113,12 +114,25 @@ body {
     background-color: #404BBF;
 }
 
+.container-list{
+    width: 264px;
+    height: 112px;
+
+    border-radius: 4px;
+border: 1px solid  #8E8F99;
+background:#F4F4FD;
+}
+
+.adv-img{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+}
 .advant{
     display: flex;
     gap: 24px;
 }
 .section-adv{
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .advant-item{
