@@ -186,7 +186,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
@@ -198,7 +198,7 @@ body {
 }
 .current{
     position: relative;
-    color: #2E2F42;
+    color: #404bbf;
 }
 .menu-item.current::after{
     content: '';
