@@ -121,14 +121,16 @@ body {
     width: 264px;
     height: 112px;
     border-radius: 4px;
-border: 1px solid  #8E8F99;
-background:#F4F4FD;
+    border: 1px solid  #8E8F99;
+    background:#F4F4FD;
+    fill: #2E2F42;
+    padding: 24px 100px;
+    margin-bottom: 8px;
 }
 
 .adv-img{
     display: flex;
     gap: 24px;
-    margin-bottom: 8px;
 }
 .advant{
     display: flex;
@@ -289,7 +291,42 @@ background-color:#404BBF;
     background-color:#FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-background:hover{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 1), 0px 1px 1px 0px rgba(46, 47, 66, 1), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
+/* UL */
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+
+/* LI */
+.social-list-item{
+}
+
+/* A */
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    fill: #F4F4FD;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404BBF;
+}
+
+/* SVG */
+.social-list-icon{
 }
 
 .portfolio{
