@@ -300,6 +300,7 @@ body {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-background {
   width: calc((100% - 72px) / 4);
@@ -309,28 +310,22 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-background:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 1),
-    0px 1px 1px 0px rgba(46, 47, 66, 1), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+
 .card {
   padding: 32px 0;
   text-align: center;
 }
 
-/* UL */
 .social-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
-/* LI */
 .social-list-item {
 }
 
-/* A */
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -340,6 +335,7 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
   fill: #f4f4fd;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -371,6 +367,10 @@ body {
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item:hover{
+  box-shadow:0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-overlay {
@@ -399,17 +399,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.overlay {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #4d5ae5;
-  overflow: auto;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .overlay-text {
+  height: 100%;
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
@@ -419,16 +411,30 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .overlay {
+.portfolio-item:hover .overlay-text {
   transform: translateY(0px);
 }
 
 /* footer */
+
 .footer-wrapper {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.footer-container{
+  display: flex;
+}
+.first-box{
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -456,9 +462,18 @@ body {
   max-width: 264px;
 }
 .social-media {
+  margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.footer-social-list{
+display: flex;
+gap: 16px;
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+background-color: #31D0AA;
 }
