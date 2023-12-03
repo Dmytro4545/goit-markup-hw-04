@@ -149,8 +149,8 @@ body {
   display: flex;
   gap: 24px;
 }
-.section-adv {
-  padding-bottom: 120px;
+.section-advant {
+  padding-bottom: 308px;
 }
 .advant-item {
   width: calc((100% - 72px) / 4);
