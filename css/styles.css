@@ -324,8 +324,7 @@ body {
   gap: 24px;
 }
 
-.social-list-item {
-}
+
 
 .social-list-link {
   display: flex;
@@ -341,10 +340,6 @@ body {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
-}
-
-/* SVG */
-.social-list-icon {
 }
 
 .portfolio {
