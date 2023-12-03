@@ -87,6 +87,7 @@ body {
   background-size: cover;
   margin-bottom: 120px;
 }
+
 .hero-page {
   min-width: 496px;
   max-width: 496px;
@@ -369,8 +370,10 @@ body {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover{
-  box-shadow:0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.portfolio-item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-overlay {
@@ -399,7 +402,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-
 .overlay-text {
   height: 100%;
   padding: 40px 32px;
@@ -427,11 +429,11 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-container{
+.footer-container {
   display: flex;
   align-items: baseline;
 }
-.first-box{
+.first-box {
   margin-right: 120px;
 }
 
@@ -467,11 +469,11 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.footer-social-list{
-display: flex;
-gap: 16px;
+.footer-social-list {
+  display: flex;
+  gap: 16px;
 }
 .footer-social-link:hover,
-.footer-social-link:focus{
-background-color: #31D0AA;
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
